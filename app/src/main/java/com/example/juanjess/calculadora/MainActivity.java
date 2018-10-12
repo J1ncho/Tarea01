@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         btnRaiz = (Button)findViewById(R.id.Raiz);
         btnIgual = (Button)findViewById(R.id.Igual);
         btnPunto = (Button)findViewById(R.id.Punto);
+        Resultado = (TextView) findViewById(R.id.Resultado);
 
 
         btnUno.setOnClickListener(new View.OnClickListener() {
