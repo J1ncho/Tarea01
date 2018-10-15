@@ -163,40 +163,36 @@ public class MainActivity extends AppCompatActivity {
         btnMas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num1="";
                 num2= Resultado.getText().toString();
                 num3="+";
-                Resultado.setText("+");
+                Resultado.setText("");
             }
         });
 
         btnMenos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num1="";
                 num2= Resultado.getText().toString();
                 num3="-";
-                Resultado.setText("-");
+                Resultado.setText("");
             }
         });
 
         btnPor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num1="";
                 num2= Resultado.getText().toString();
                 num3="x";
-                Resultado.setText("x");
+                Resultado.setText("");
             }
         });
 
         btnEntre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num1="";
                 num2= Resultado.getText().toString();
                 num3="/";
-                Resultado.setText("/");
+                Resultado.setText("");
             }
         });
 
